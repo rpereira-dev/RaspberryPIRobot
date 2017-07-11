@@ -1,0 +1,12 @@
+dependencies {
+	compile project(':RaspberryPIRobot')
+}
+
+// configure  the source folders
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
